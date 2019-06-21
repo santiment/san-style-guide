@@ -13,7 +13,6 @@
   If you must reassign references, use let instead of var. eslint: no-var
 
   Note that both let and const are block-scoped.
-  ```
 
 **[⬆ back to top](#table-of-contents)**
 
