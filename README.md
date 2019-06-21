@@ -24,5 +24,22 @@
     - However, multiple [Stateless, or Pure, Components](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions) are allowed per file. eslint: [`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md#ignorestateless).
   - Always use JSX syntax.
   - Organize imports. First libraries, then our components, then styles
+       ```jsx
+    // bad
+    import React, { Fragment } from 'react'
+    import styles from './SignalCard.module.scss'
+    import { Link } from 'react-router-dom'
+    import cx from 'classnames'
+    import StatusLabel from './../../components/StatusLabel'
+    import { Panel, Icon, Toggle } from '@santiment-network/ui'
+
+    // good
+    import React, { Fragment } from 'react'
+    import { Link } from 'react-router-dom'
+    import { Panel, Icon, Toggle } from '@santiment-network/ui'
+    import cx from 'classnames'
+    import StatusLabel from './../../components/StatusLabel'
+    import styles from './SignalCard.module.scss'
+    ```
 
 **[⬆ back to top](#table-of-contents)**
