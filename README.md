@@ -1,4 +1,4 @@
-# Santiment JavaScript Style Guide
+# Santiment JavaScript Style Guide [WIP. It's just the begining]
 
 ## Table of Contents
 
