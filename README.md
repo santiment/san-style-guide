@@ -108,10 +108,25 @@
     // good
     import React, { Fragment } from 'react'
     import { Link } from 'react-router-dom'
-    import { Panel, Icon, Toggle } from '@santiment-network/ui'
+    import { Panel } from '@santiment-network/ui'
+    import { Icon } from '@santiment-network/ui'
+    import { Toggle } from '@santiment-network/ui'
     import cx from 'classnames'
     import StatusLabel from './../../components/StatusLabel'
     import styles from './SignalCard.module.scss'
+    ```
+    
+   <a name="basic-react-rules"></a><a name="3.1"></a>
+   - [3.1](#webpack-tree-shaking-problem) Webpack tree shaking problem.
+    Better to use an default import: import Label from '@santiment-network/ui/Label' (Otherwise webpack includes whole library)
+       ```jsx
+    // bad
+    import { Button, Label } from '@santiment-network/ui'
+       
+       
+    //good
+    import { Button } from '@santiment-network/ui/Button'
+    import { Label } from '@santiment-network/ui/Label'
     ```
 
 **[⬆ back to top](#table-of-contents)**
