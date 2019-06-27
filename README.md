@@ -128,7 +128,10 @@
     import Button from '@santiment-network/ui/Button'
     import Label from '@santiment-network/ui/Label'
     ```
-
+    
+     <a name="naming-rule-for-graphql-query"></a><a name="3.2"></a>
+   - [3.3](#naming-rule-for-graphql-query) Naming rule for our graphql queries.
+    Our way for naming queries/mutation is following: ALL_WATCHLISTS_QUERY (_MUTATION for mutations)
 
 
 **[⬆ back to top](#table-of-contents)**
