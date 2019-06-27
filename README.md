@@ -125,8 +125,8 @@
     import { Button, Label } from '@santiment-network/ui'
        
     //good
-    import { Button } from '@santiment-network/ui/Button'
-    import { Label } from '@santiment-network/ui/Label'
+    import Button from '@santiment-network/ui/Button'
+    import Label from '@santiment-network/ui/Label'
     ```
 
 
