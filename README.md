@@ -90,7 +90,7 @@
 
 ## Basic React Rules
 
-  <a name="basic-react-rules"></a><a name="3"></a> [3](#variables)
+  <a name="basic-react-rules"></a><a name="3"></a> [3](#basic-react-rules)
 
   - Only include one React component per file.
     - However, multiple [Stateless, or Pure, Components](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions) are allowed per file. eslint: [`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md#ignorestateless).
@@ -116,7 +116,7 @@
     import styles from './SignalCard.module.scss'
     ```
     
-       <a name="basic-react-rules"></a><a name="3.1"></a>
+       <a name="webpack-tree-shaking-problem"></a><a name="3.1"></a>
    - [3.1](#webpack-tree-shaking-problem) Webpack tree shaking problem.
     Better to use a default import: import Label from '@santiment-network/ui/Label' (Otherwise webpack includes whole library)
    
