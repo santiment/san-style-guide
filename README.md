@@ -108,9 +108,9 @@
     // good
     import React, { Fragment } from 'react'
     import { Link } from 'react-router-dom'
-    import { Panel } from '@santiment-network/ui'
-    import { Icon } from '@santiment-network/ui'
-    import { Toggle } from '@santiment-network/ui'
+    import Panel from '@santiment-network/ui/Panel'
+    import Icon from '@santiment-network/ui/Icon'
+    import Toggle from '@santiment-network/ui/Toggle'
     import cx from 'classnames'
     import StatusLabel from './../../components/StatusLabel'
     import styles from './SignalCard.module.scss'
