@@ -118,7 +118,7 @@
     
        <a name="basic-react-rules"></a><a name="3.1"></a>
    - [3.1](#webpack-tree-shaking-problem) Webpack tree shaking problem.
-    Better to use an default import: import Label from '@santiment-network/ui/Label' (Otherwise webpack includes whole library)
+    Better to use a default import: import Label from '@santiment-network/ui/Label' (Otherwise webpack includes whole library)
    
    ```javascript
     // bad
